@@ -1,11 +1,19 @@
 body{
     background-color: darkgrey;
-    font-family: serif;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1em;
 }
 
 header{
     font-size: 3em;
     text-align: center;
+}
+
+p{
+ font-variant-ligatures: common-ligatures;
+ font-stretch: condensed;
+
+
 }
 /* ESTILOS PARA EL TITULAR*/
 .container_top_story{
@@ -13,20 +21,38 @@ header{
 }
 .title_top_story{
     text-align: center;
-
-}
-.top_story{
     font-size: 2.5em;
-}
 
+}
 .title_top_story_body{
-    
-    columns: 2
+    columns: 2;
+    height: auto;
+    padding: 30px;
+}
+.subtitle_top_story{
+    font-size: 1.75em;
+    font-style: oblique;
+    margin-top: 0%;
 }
 
+.container_top_story>figure{
+    margin: 0;
+    width:100%;
+}
+.container_top_story>figure>img{
+    margin: 0;
+    width:100%;
+}
+
+.container_top_story>figure>img{
+    display: block;
+    width: 120%;
+    height: 100%
+}
 /* ESTILOS PARA NEWS*/ 
 .news_body{
-    columns: 5;
+    columns: 6;
+    column-gap: normal;
     margin: 25px;
 }
 .new>figure{
