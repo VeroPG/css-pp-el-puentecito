@@ -1,3 +1,42 @@
 body{
     background-color: darkgrey;
+    font-family: serif;
+}
+
+header{
+    font-size: 3em;
+    text-align: center;
+}
+/* ESTILOS PARA EL TITULAR*/
+.container_top_story{
+    margin: auto;
+}
+.title_top_story{
+    text-align: center;
+
+}
+.top_story{
+    font-size: 2.5em;
+}
+
+.title_top_story_body{
+    
+    columns: 2
+}
+
+/* ESTILOS PARA NEWS*/ 
+.news_body{
+    columns: 5;
+    margin: 25px;
+}
+.new>figure{
+    margin: 0;
+    width:100%;
+    /*overflow:hidden*/
+}
+
+.new>figure>img{
+    display: block;
+    width: 100%;
+    height: 100%
 }
