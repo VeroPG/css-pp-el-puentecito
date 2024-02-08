@@ -1,7 +1,16 @@
+
+/*Estilos generales*/
+
 body{
-    background-color: darkgrey;
+    margin:auto;
+    max-width: 90%;
+    background-color: rgb(247, 244, 200);
     font-family:'Times New Roman', Times, serif;
-    font-size: 1em;
+    text-align: justify;
+    
+}
+h1{
+margin-bottom: 30px;
 }
 
 header{
@@ -10,11 +19,18 @@ header{
 }
 
 p{
+font-family:'Times New Roman', Times, serif;
  font-variant-ligatures: common-ligatures;
  font-stretch: condensed;
-
-
+ font-size: 1em;
 }
+
+figcaption{
+    font-size: 0.85em;
+    font-style:oblique;
+}
+
+
 /* ESTILOS PARA EL TITULAR*/
 .container_top_story{
     margin: auto;
@@ -22,6 +38,7 @@ p{
 .title_top_story{
     text-align: center;
     font-size: 2.5em;
+    margin-bottom: 5px;
 
 }
 .title_top_story_body{
@@ -34,6 +51,10 @@ p{
     font-style: oblique;
     margin-top: 0%;
 }
+.container_top_story>p{
+    font-size: 1.1em;
+}
+
 
 .container_top_story>figure{
     margin: 0;
@@ -65,4 +86,7 @@ p{
     display: block;
     width: 100%;
     height: 100%
+}
+.quote{
+    font-style: oblique;
 }
